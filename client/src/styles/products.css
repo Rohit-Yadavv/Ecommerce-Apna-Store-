@@ -1,0 +1,28 @@
+.productpageWrapper {
+    background-color: #f6f8fa !important;
+}
+
+
+
+.filterWrapper {
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+/* by default it has some value  */
+.ant-checkbox-wrapper:first-of-type {
+    margin: 0 !important;
+}
+
+
+.productsContainer {
+    gap: 10px;
+    background-color: #fff;
+}

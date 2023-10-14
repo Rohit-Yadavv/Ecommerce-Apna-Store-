@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* font-family: 'Poppins',sans-serif; */
+/* font-family: 'Work Sans',sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  background-color: #f6f8fa;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body {
+  scrollbar-width: thin;
+  font-family: 'Work Sans', sans-serif;
+  height: auto !important;
+  background-color: #f6f8fa;
+}
+
+/* scrolbar track width   */
+body::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+/* scrolbar track bachground color   */
+body::-webkit-scrollbar-track {
+  background-color: rgb(24 24 29 / 0%);
+}
+
+/* scrolbar  */
+
+body::-webkit-scrollbar-thumb {
+  background: #0000009d;
+  border: 5px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
+
+
+/* ==================================================header ====================================================== */
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  padding: 8px 30px;
+
+}
+
+.navbar-brand {
+  box-shadow: none !important;
+}
+
+.navbar-brand:hover {
+  opacity: 1 !important;
+}
+
+.navbar a {
+  font-weight: 300 !important;
+  height: 2.5rem;
+  width: 100px;
+  border: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3191B0 !important;
+  /* color: #6A819D !important; */
+  margin-bottom: 5px;
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+}
+
+.navbar a:hover {
+  opacity: 0.7;
+}
+
+.dropdown-item {
+  width: 100% !important;
+}
+
+/* -----------------------------------------search button------------------------------------ */
+
+.search-form {
+  font-weight: 300 !important;
+  height: 2.5rem;
+  background-color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08) !important;
+  display: flex;
+  align-items: center;
+  color: #3191B0 !important;
+  /* color: #6A819D !important; */
+  margin-bottom: 5px;
+}
+
+.search-input {
+  border: none;
+  width: 20rem;
+  height: 2.5rem;
+  background-color: #ffffff;
+  padding: 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+}
+
+.search-button {
+  padding: 0;
+  font-size: 1rem;
+  border: none;
+  opacity: 1;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: #3191B0;
+  /* color: #6A819D !important; */
+}
+
+.search-button:hover {
+  opacity: 0.7 !important;
+}
+
+/* -----------------------------------------cart------------------------------------ */
+.cart-trolley--link {
+  position: relative;
+  height: 2.5rem;
+}
+
+.cart-trolley {
+  position: relative;
+  color: #3191B0 !important;
+}
+
+.cart-total--item {
+  width: 1.4rem;
+  height: 1.4rem;
+  position: absolute;
+  background-color: #3191B0 !important;
+  color: #ffffff !important;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  top: 11px;
+  left: 64px !important;
+}
+
+/* ================================================== Footer ====================================================== */
+
+/* ================================================== page not found  ====================================================== */
+
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ================================================== contact us  ====================================================== */
+
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================================================== register page  ====================================================== */
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+
+/* =================================================== dashboard ================================================ */
+
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
+
+/* ============================================================CAROUSEL======================================================= */
